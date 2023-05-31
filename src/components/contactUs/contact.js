@@ -69,12 +69,9 @@ const Contact = () => {
                     <div style={{maginLeft:'50%',justifyContent:'center',alignContent:'center'}}>
                         <h3> <FiMail /> </h3>
                     </div>
-                    <div>
-                        <div style={{marginLeft:'20px'}}>
-                            
-                            <h5 style={{marginTop:'0px'}}>priyanka.20eic530@rtu.ac.in</h5>
-                            
-                        </div>
+                    <div style={{marginLeft:'20px'}}>
+                       
+                            <h5 style={{marginTop:'18px'}}>priyanka.20eic530@rtu.ac.in</h5>
                         <div >
                             
                         </div>
@@ -95,7 +92,7 @@ const Contact = () => {
               value={name}
               onChange={handleNameChange}
               required
-            />
+             style={{marginLeft:'40px'}}/>
           </div>
           <div>
             <label htmlFor="email">Email:</label>
@@ -104,7 +101,7 @@ const Contact = () => {
               id="email"
               value={email}
               onChange={handleEmailChange}
-              required
+              required style={{marginLeft:'45px', marginTop:'20px'}}
             />
           </div>
           <div>
@@ -113,7 +110,7 @@ const Contact = () => {
               id="message"
               value={message}
               onChange={handleMessageChange}
-              required
+              required style={{marginLeft:'20px', marginTop:'20px'}}
             ></textarea>
           </div>
           <button type="submit">Submit</button>

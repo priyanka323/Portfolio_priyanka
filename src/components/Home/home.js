@@ -8,7 +8,7 @@ const Home =()=>{
         
         <>
             <Header/>
-            <div className="image-container" style={{ }}>
+            <div className="image-container" >
                 <div style={{}}>
                 <img src={image2} className="image" style={{backgroundSize:'cover',}}></img>
                 </div>
