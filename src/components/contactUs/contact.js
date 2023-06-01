@@ -113,7 +113,7 @@ const Contact = () => {
               required style={{marginLeft:'20px', marginTop:'20px'}}
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" style={{marginTop:'20px',marginLeft:'30%'}}>Submit</button>
         </form>
       )}
     </div>
